@@ -1,0 +1,25 @@
+ body {
+  margin: 0;
+  padding: 0;
+  background:url(https://i.pinimg.com/originals/ee/c1/a8/eec1a83efdb04e8dffaa180b8a9068c0.gif)
+    
+}
+canvas {
+  display: block;
+  animation:colores infinite 5s;
+}
+@keyframes colores{
+  0%{box-shadow:0 0 2px 2px orange}
+  20%{box-shadow:0 0 2px 2px red}
+  40%{box-shadow:0 0 2px 2px yellow}
+  60%{box-shadow:0 0 2px 2px green}
+  80%{box-shadow:0 0 2px 2px blue}
+}
+#peluche{
+  font-size: 100px;
+background: peru;
+  font-family: "Nosifer", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align:center
+}
